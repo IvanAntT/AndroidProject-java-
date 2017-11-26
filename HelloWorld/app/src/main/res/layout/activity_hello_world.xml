@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.johny.helloworld.Activity.HelloWorldActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World Aplication"
+        style="@style/BigText"
+        />
+
+        <EditText
+            android:id="@+id/whatToSay_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <CheckBox
+            android:id="@+id/myCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+
+    <RadioGroup
+        android:id="@+id/rdChosenOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GooD"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BaD"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/BigText"
+            android:text="CrazY"/>
+    </RadioGroup>
+        <Button
+            android:id="@+id/firstBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click me to say something"/>
+</LinearLayout>
